@@ -27,12 +27,19 @@ public class ImagePickerAdapter extends RecyclerView.Adapter<ImagePickerAdapter.
     private List<Image> selectedImages;
     private OnImageClickListener itemClickListener;
 
+    private int doneButtonRes = -1;
+
     public ImagePickerAdapter(Context context, List<Image> images, List<Image> selectedImages, OnImageClickListener itemClickListener) {
         this.context = context;
         this.images = images;
         this.selectedImages = selectedImages;
         this.itemClickListener = itemClickListener;
         inflater = LayoutInflater.from(this.context);
+    }
+
+    public ImagePickerAdapter doneButtonRes(int doneButtonRes) {
+        this.doneButtonRes = doneButtonRes;
+        return this;
     }
 
     @Override
@@ -54,7 +61,8 @@ public class ImagePickerAdapter extends RecyclerView.Adapter<ImagePickerAdapter.
 
         if (isSelected(image)) {
             viewHolder.alphaView.setAlpha(0.5f);
-            ((FrameLayout) viewHolder.itemView).setForeground(ContextCompat.getDrawable(context, R.drawable.ic_done_white));
+            ((FrameLayout) viewHolder.itemView)
+                    .setForeground(ContextCompat.getDrawable(context, doneButtonRes));
         } else {
             viewHolder.alphaView.setAlpha(0.0f);
             ((FrameLayout) viewHolder.itemView).setForeground(null);

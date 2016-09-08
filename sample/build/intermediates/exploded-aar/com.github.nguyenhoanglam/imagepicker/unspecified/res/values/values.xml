@@ -7,6 +7,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorTextPrimary">#FFFFFF</color>
     <color name="grey">#9E9E9E</color>
+    <color name="ip_menu_text_color">@android:color/holo_blue_bright</color>
     <color name="white">#FFFFFF</color>
     <dimen name="font_medium">16sp</dimen>
     <dimen name="font_small">12sp</dimen>
@@ -46,7 +47,7 @@
     </style>
     <style name="IPCustomToolbarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorPrimary">@color/colorTextPrimary</item>
-        <item name="actionMenuTextColor">@color/colorTextPrimary</item>
+        <item name="actionMenuTextColor">@color/ip_menu_text_color</item>
     </style>
     <style name="IPImagePickerTheme" parent="AppTheme">
         <item name="actionModeStyle">@style/IPCustomActionModeStyle</item>

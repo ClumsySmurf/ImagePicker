@@ -70,6 +70,9 @@ public class ImagePickerActivity extends AppCompatActivity implements OnImageCli
     public static final String INTENT_EXTRA_FOLDER_TITLE = "folderTitle";
     public static final String INTENT_EXTRA_IMAGE_TITLE = "imageTitle";
     public static final String INTENT_EXTRA_IMAGE_DIRECTORY = "imageDirectory";
+    public static final String INTENT_EXTRA_PRIMARY_COLOR = "primaryColor";
+    public static final String INTENT_EXTRA_DONE_BUTTON_RES = "doneButtonRes";
+    public static final String INTENT_EXTRA_CAM_BUTTON_RES = "camButtonRes";
 
 
     private List<Folder> folders;
@@ -85,6 +88,7 @@ public class ImagePickerActivity extends AppCompatActivity implements OnImageCli
     private boolean folderMode;
     private int limit;
     private String folderTitle, imageTitle;
+    private int primaryColor;
 
     private ActionBar actionBar;
 
@@ -114,6 +118,8 @@ public class ImagePickerActivity extends AppCompatActivity implements OnImageCli
 
     private Parcelable foldersState;
 
+    private int cameraButonRes;
+    private int doneButtonRes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -134,10 +140,21 @@ public class ImagePickerActivity extends AppCompatActivity implements OnImageCli
         setSupportActionBar(toolbar);
         actionBar = getSupportActionBar();
 
+
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setHomeAsUpIndicator(R.drawable.ic_arrow_back);
             actionBar.setDisplayShowTitleEnabled(true);
+        }
+
+
+        doneButtonRes = intent.getIntExtra(ImagePickerActivity.INTENT_EXTRA_DONE_BUTTON_RES, R.drawable.ic_done_white);
+        cameraButonRes = intent.getIntExtra(ImagePickerActivity.INTENT_EXTRA_CAM_BUTTON_RES, R.drawable.ic_camera_white);
+
+        primaryColor = intent.getIntExtra(ImagePickerActivity.INTENT_EXTRA_PRIMARY_COLOR, -1);
+        if (primaryColor > 0) {
+            toolbar.setTitleTextColor(getResources().getColor(primaryColor));
+            toolbar.setSubtitleTextColor(getResources().getColor(primaryColor));
         }
 
         /** Get extras */
@@ -175,10 +192,14 @@ public class ImagePickerActivity extends AppCompatActivity implements OnImageCli
         /** Set activity title */
         if (actionBar != null) {
             actionBar.setTitle(folderMode ? folderTitle : imageTitle);
+
+
         }
 
         /** Init folder and image adapter */
-        imageAdapter = new ImagePickerAdapter(this, images, selectedImages, this);
+        imageAdapter = new ImagePickerAdapter(this, images, selectedImages, this)
+        .doneButtonRes(doneButtonRes);
+
         folderAdapter = new FolderPickerAdapter(this, new OnFolderClickListener() {
             @Override
             public void onFolderClick(Folder bucket) {
@@ -236,7 +257,12 @@ public class ImagePickerActivity extends AppCompatActivity implements OnImageCli
 
         if (menu.findItem(menuCameraId) == null) {
             menuCamera = menu.add(Menu.NONE, menuCameraId, 1, getString(R.string.camera));
-            menuCamera.setIcon(R.drawable.ic_camera_white);
+
+            if (this.cameraButonRes > 0 ) {
+                menuCamera.setIcon(getResources().getDrawable(cameraButonRes));
+            } else {
+                menuCamera.setIcon(R.drawable.ic_camera_white);
+            }
             menuCamera.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
             menuCamera.setVisible(showCamera);
         }

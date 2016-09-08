@@ -7,6 +7,8 @@ package com.nguyenhoanglam.imagepicker.activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.annotation.ColorRes;
+import android.support.annotation.DrawableRes;
 
 import com.nguyenhoanglam.imagepicker.R;
 import com.nguyenhoanglam.imagepicker.helper.Constants;
@@ -29,6 +31,15 @@ public class ImagePicker {
     private boolean folderMode;
     private String imageDirectory;
 
+    @ColorRes
+    private int primaryColor = -1;
+
+    @DrawableRes
+    private int cameraButtonRes;
+
+    @DrawableRes
+    private int doneButtonRes;
+
     public ImagePicker(Activity activity) {
         this.activity = activity;
         this.mode = ImagePickerActivity.MODE_MULTIPLE;
@@ -39,6 +50,9 @@ public class ImagePicker {
         this.selectedImages = new ArrayList<>();
         this.folderMode = false;
         this.imageDirectory = activity.getString(R.string.image_directory);
+        this.primaryColor = -1;
+        this.doneButtonRes = -1;
+        this.cameraButtonRes = -1;
     }
 
 
@@ -92,6 +106,38 @@ public class ImagePicker {
         return this;
     }
 
+    @ColorRes
+    public ImagePicker primaryColor(@ColorRes int color) {
+        this.primaryColor = color;
+        return this;
+    }
+
+
+
+    /**
+     * The done button drawable to show in action bar.
+     * @param doneButtonRes - the drawable to use
+     * @return
+     */
+    @DrawableRes
+    public ImagePicker doneButtonRes(@DrawableRes int doneButtonRes) {
+        this.doneButtonRes = doneButtonRes;
+        return this;
+    }
+
+    /**
+     * The camera button to show in title bar
+     * @param cameraButtonRes resource to use
+     * @return
+     */
+    @DrawableRes
+    public ImagePicker camButtonRes(@DrawableRes int cameraButtonRes) {
+        this.cameraButtonRes = cameraButtonRes;
+        return this;
+    }
+
+
+
     public void start(int requestCode) {
         Intent intent = new Intent(activity, ImagePickerActivity.class);
         intent.putExtra(ImagePickerActivity.INTENT_EXTRA_MODE, mode);
@@ -102,6 +148,16 @@ public class ImagePicker {
         intent.putExtra(ImagePickerActivity.INTENT_EXTRA_SELECTED_IMAGES, selectedImages);
         intent.putExtra(ImagePickerActivity.INTENT_EXTRA_FOLDER_MODE, folderMode);
         intent.putExtra(ImagePickerActivity.INTENT_EXTRA_IMAGE_DIRECTORY, imageDirectory);
+        intent.putExtra(ImagePickerActivity.INTENT_EXTRA_PRIMARY_COLOR, primaryColor);
+
+        if (this.cameraButtonRes > 0) {
+            intent.putExtra(ImagePickerActivity.INTENT_EXTRA_CAM_BUTTON_RES, cameraButtonRes);
+        }
+
+        if (this.doneButtonRes > 0) {
+            intent.putExtra(ImagePickerActivity.INTENT_EXTRA_DONE_BUTTON_RES, doneButtonRes);
+        }
+
 
         activity.startActivityForResult(intent, requestCode);
     }

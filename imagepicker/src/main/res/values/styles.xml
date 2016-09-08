@@ -21,7 +21,7 @@
 
     <style name="IPCustomToolbarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorPrimary">@color/colorTextPrimary</item>
-        <item name="actionMenuTextColor">@color/colorTextPrimary</item>
+        <item name="actionMenuTextColor">@color/ip_menu_text_color</item>
     </style>
 
 </resources>

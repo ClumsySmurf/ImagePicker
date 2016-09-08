@@ -9,4 +9,5 @@
     <color name="grey">#9E9E9E</color>
     <color name="black">#000000</color>
     <color name="black_alpha_50">#80000000</color>
+    <color name="ip_menu_text_color">@android:color/holo_blue_bright</color>
 </resources>
