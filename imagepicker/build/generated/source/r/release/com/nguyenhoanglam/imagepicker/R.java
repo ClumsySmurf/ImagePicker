@@ -2911,9 +2911,9 @@ containing a value of this type.
         public static int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f08007e;
         public static int Base_Widget_Design_AppBarLayout=0x7f0800c2;
         public static int Base_Widget_Design_TabLayout=0x7f0800c3;
-        public static int CustomActionModeStyle=0x7f0800c4;
-        public static int CustomToolbarTheme=0x7f0800c5;
-        public static int ImagePickerTheme=0x7f0800c6;
+        public static int IPCustomActionModeStyle=0x7f0800c4;
+        public static int IPCustomToolbarTheme=0x7f0800c5;
+        public static int IPImagePickerTheme=0x7f0800c6;
         public static int Platform_AppCompat=0x7f08001a;
         public static int Platform_AppCompat_Light=0x7f08001b;
         public static int Platform_ThemeOverlay_AppCompat=0x7f08007f;

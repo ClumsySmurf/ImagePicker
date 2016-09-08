@@ -8,18 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ImagePickerTheme" parent="AppTheme">
-        <item name="actionModeStyle">@style/CustomActionModeStyle</item>
+    <style name="IPImagePickerTheme" parent="AppTheme">
+        <item name="actionModeStyle">@style/IPCustomActionModeStyle</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="CustomActionModeStyle" parent="Base.Widget.AppCompat.ActionMode">
+    <style name="IPCustomActionModeStyle" parent="Base.Widget.AppCompat.ActionMode">
         <item name="background">@color/colorPrimary</item>
     </style>
 
-    <style name="CustomToolbarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+    <style name="IPCustomToolbarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorPrimary">@color/colorTextPrimary</item>
         <item name="actionMenuTextColor">@color/colorTextPrimary</item>
     </style>

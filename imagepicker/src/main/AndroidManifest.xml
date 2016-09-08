@@ -16,7 +16,7 @@
             android:name=".activity.ImagePickerActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/ImagePickerTheme" />
+            android:theme="@style/IPImagePickerTheme" />
     </application>
 
 </manifest>

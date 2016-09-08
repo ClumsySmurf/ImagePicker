@@ -1066,9 +1066,9 @@ public final class R {
 		public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation = 0x7f08007e;
 		public static final int Base_Widget_Design_AppBarLayout = 0x7f0800c2;
 		public static final int Base_Widget_Design_TabLayout = 0x7f0800c3;
-		public static final int CustomActionModeStyle = 0x7f0800c4;
-		public static final int CustomToolbarTheme = 0x7f0800c5;
-		public static final int ImagePickerTheme = 0x7f0800c6;
+		public static final int IPCustomActionModeStyle = 0x7f0800c4;
+		public static final int IPCustomToolbarTheme = 0x7f0800c5;
+		public static final int IPImagePickerTheme = 0x7f0800c6;
 		public static final int Platform_AppCompat = 0x7f08001a;
 		public static final int Platform_AppCompat_Light = 0x7f08001b;
 		public static final int Platform_ThemeOverlay_AppCompat = 0x7f08007f;

@@ -1034,9 +1034,9 @@ int style Base_Widget_AppCompat_Toolbar 0x7f0800c1
 int style Base_Widget_AppCompat_Toolbar_Button_Navigation 0x7f08007e
 int style Base_Widget_Design_AppBarLayout 0x7f0800c2
 int style Base_Widget_Design_TabLayout 0x7f0800c3
-int style CustomActionModeStyle 0x7f0800c4
-int style CustomToolbarTheme 0x7f0800c5
-int style ImagePickerTheme 0x7f0800c6
+int style IPCustomActionModeStyle 0x7f0800c4
+int style IPCustomToolbarTheme 0x7f0800c5
+int style IPImagePickerTheme 0x7f0800c6
 int style Platform_AppCompat 0x7f08001a
 int style Platform_AppCompat_Light 0x7f08001b
 int style Platform_ThemeOverlay_AppCompat 0x7f08007f
