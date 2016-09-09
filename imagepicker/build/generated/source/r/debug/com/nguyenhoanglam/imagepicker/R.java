@@ -2693,7 +2693,7 @@ containing a value of this type.
         public static int select_dialog_multichoice_material=0x7f040032;
         public static int select_dialog_singlechoice_material=0x7f040033;
         public static int support_simple_spinner_dropdown_item=0x7f040034;
-        public static int toolbar=0x7f040035;
+        public static int ip_toolbar =0x7f040035;
     }
     public static final class mipmap {
         public static int ic_launcher=0x7f030000;
