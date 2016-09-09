@@ -8,6 +8,7 @@
     <color name="colorTextPrimary">#FFFFFF</color>
     <color name="grey">#9E9E9E</color>
     <color name="ip_menu_text_color">@android:color/holo_blue_bright</color>
+    <color name="ip_toolbar_bg_color">@android:color/black</color>
     <color name="white">#FFFFFF</color>
     <dimen name="font_medium">16sp</dimen>
     <dimen name="font_small">12sp</dimen>

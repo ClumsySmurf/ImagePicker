@@ -44,12 +44,12 @@
         "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_tab_text.xml"
-    },
-    {
         "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -80,12 +80,12 @@
         "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.github.nguyenhoanglam/imagepicker/unspecified/res/layout/activity_image_picker.xml"
     },
     {
-        "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/item_folder.xml",
-        "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.github.nguyenhoanglam/imagepicker/unspecified/res/layout/item_folder.xml"
-    },
-    {
         "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
         "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/item_folder.xml",
+        "source": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/exploded-aar/com.github.nguyenhoanglam/imagepicker/unspecified/res/layout/item_folder.xml"
     },
     {
         "merged": "/Users/johnhamilton/ImagePicker/sample/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",

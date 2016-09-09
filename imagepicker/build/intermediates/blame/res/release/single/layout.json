@@ -40,12 +40,12 @@
         "source": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
-        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_menu_item_action_area.xml"
-    },
-    {
         "merged": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
         "source": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
+        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
@@ -84,12 +84,12 @@
         "source": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
@@ -124,20 +124,20 @@
         "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_media_action.xml"
     },
     {
-        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/notification_template_lines.xml",
         "source": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/activity_image_picker.xml",
         "source": "/Users/johnhamilton/ImagePicker/imagepicker/src/main/res/layout/activity_image_picker.xml"
+    },
+    {
+        "merged": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/hoanglam/Documents/Programming/Android/MyProjects/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
@@ -180,16 +180,16 @@
         "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
-        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_item_subheader.xml"
+        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
         "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
-        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_layout.xml"
+        "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_item_subheader.xml"
     },
     {
         "merged": "/Users/johnhamilton/ImagePicker/imagepicker/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",

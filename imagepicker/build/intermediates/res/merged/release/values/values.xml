@@ -55,6 +55,7 @@
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
     <color name="ip_menu_text_color">@android:color/holo_blue_bright</color>
+    <color name="ip_toolbar_bg_color">@android:color/black</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
